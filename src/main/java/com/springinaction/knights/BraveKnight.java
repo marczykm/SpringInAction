@@ -1,12 +1,19 @@
 package com.springinaction.knights;
 
+
 /**
- * Created by MMARCZYK on 2015-08-31.
+ * The type Brave knight.
  */
 public class BraveKnight implements Knight {
 
+
     private Quest quest;
 
+    /**
+     * Instantiates a new Brave knight.
+     *
+     * @param quest the quest
+     */
     public BraveKnight(Quest quest) {
         this.quest = quest;
     }

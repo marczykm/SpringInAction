@@ -1,8 +1,11 @@
 package com.springinaction.knights;
 
 /**
- * Created by MMARCZYK on 2015-08-31.
+ * The interface Quest.
  */
 public interface Quest {
+    /**
+     * Embark method.
+     */
     public void embark();
 }

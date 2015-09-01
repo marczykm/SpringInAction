@@ -2,15 +2,16 @@ package com.springinaction.knights;
 
 import org.junit.Test;
 
-import static org.mockito.Mockito.mock;
-import static org.mockito.Mockito.times;
-import static org.mockito.Mockito.verify;
+import static org.mockito.Mockito.*;
 
 /**
- * Created by MMARCZYK on 2015-08-31.
+ * Test for type Brave knight.
  */
 public class BraveKnightTest {
 
+    /**
+     * Knight should embark on quest.
+     */
     @Test
     public void knightShouldEmbarkOnQuest() {
         Quest mockQuest = mock(Quest.class);
